@@ -29,6 +29,10 @@ Copy dist folder from an app to the server:
 cp -r ../vue-build-a-bot/dist .
 ```
 
+```
+vue inspect --mode=production > webpack.config.js
+```
+
 ### Run your tests
 ```
 npm run test
