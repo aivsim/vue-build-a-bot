@@ -19,6 +19,16 @@ npm run build -- --mode=production
 npm run build -- --mode=staging
 ```
 
+In server index.js add
+```
+app.use('/', express.static('dist', { index: 'index.html' }));
+```
+
+Copy dist folder from an app to the server:
+```
+cp -r ../vue-build-a-bot/dist .
+```
+
 ### Run your tests
 ```
 npm run test
