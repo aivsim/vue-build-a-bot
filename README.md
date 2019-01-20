@@ -13,6 +13,10 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+or
+npm run build -- --mode=production
+
+npm run build -- --mode=staging
 ```
 
 ### Run your tests
